@@ -3,11 +3,11 @@ const btnDc = document.getElementById("btnCategoryDc");
 const listarCard = document.getElementById("listarCard");
 
 btnMarvel.addEventListener("click", () => {
-  getData("http://localhost:4000/marvel");
+  getData("https://api-heroes-karvaroz.herokuapp.com/marvel/");
 });
 
 btnDc.addEventListener("click", () => {
-  getData("http://localhost:4000/dc");
+  getData("https://api-heroes-karvaroz.herokuapp.com/dc/");
 });
 
 const getData = async (url) => {

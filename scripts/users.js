@@ -4,7 +4,7 @@ let btnEliminar = document.getElementById("btnEliminar");
 let btnCorreo = document.getElementById("btnCorreo");
 let form = document.getElementById("formulario");
 
-let UrlForm = "http://localhost:4000/users/";
+let UrlForm = "https://api-heroes-karvaroz.herokuapp.com/users/";
 // GUARDAR
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
