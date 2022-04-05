@@ -1,108 +1,120 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Karina",
-            "lastName": "Vargas",
-            "email": "karina@test.com"
-        },
-        {
-            "id": 2,
-            "name": "Juan",
-            "lastName": "Sanchez",
-            "email": "juan@test.com"
-        },
-        {
-            "id": 3,
-            "name": "Pedro",
-            "lastName": "Perez",
-            "email": "pedro@test.com"
-        },
-        {
-            "id": 4,
-            "name": "Maria",
-            "lastName": "Gonzalez",
-            "email": "maria@test.com"
-        },
-        {
-            "id": 5,
-            "name": "Jose",
-            "lastName": "Lopez",
-            "email": "jose@test.com"
-        }
-    ],
-    "marvel": [
-        {
-            "id": 1,
-            "name": "Iron",
-            "category": "Marvel",
-            "description": "Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon.",
-            "image": "/images/iron.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Spiderman",
-            "category": "Marvel",
-            "description": "Peter Parker who, after being bitten by a genetically-altered spider, gains superhuman strength and the spider-like ability to cling to any surface",
-            "image": "/images/spiderman.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Thor",
-            "category": "Marvel",
-            "description": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
-            "image": "/images/thor.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Hulk",
-            "category": "Marvel",
-            "description": "Scientist Bruce Banner desperately seeks a cure for the gamma radiation that contaminated his cells and turned him into The Hulk",
-            "image": "/images/hulk.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Captain America",
-            "category": "Marvel",
-            "description": "During World War II, Steve Rogers, a frail man, is transformed into the super-soldier Captain America and must stop the Red Skull (Weaving) from using the Tesseract as an energy source for world domination",
-            "image": "/images/captain-america.jpg"
-        }
-    ],
-    "dc": [
-        {
-            "id": 1,
-            "name": "Batman",
-            "category": "DC",
-            "description": "Batman ventures into Gotham City's underworld when a sadistic killer leaves behind a trail of cryptic clues",
-            "image": "/images/batman.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Superman",
-            "category": "DC",
-            "description": "Clark Kent learns that he is a superpowered alien from the planet Krypton. He assumes the role of mankind's protector as Superman, making the choice to face General Zod and prevent him from destroying humanity",
-            "image": "/images/superman.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Wonder Woman",
-            "category": "DC",
-            "description": "the Amazon princess Diana sets out to stop World War I, believing the conflict was started by the longtime enemy of the Amazons, Ares, after American pilot and spy Steve Trevor crash-lands on their island Themyscira and informs her about it",
-            "image": "/images/wonder.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Flash",
-            "category": "DC",
-            "description": "Barry travels back in time to prevent his mother's murder, which brings unintended consequences",
-            "image": "/images/flash.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Green Lantern",
-            "category": "DC",
-            "description": "Hal is given a ring that grants him superpowers, and must confront Parallax, who threatens to upset the balance of power in the universe",
-            "image": "/images/green-lantern.jpg"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Karina",
+      "lastName": "Vargas",
+      "email": "karina@test.com"
+    },
+    {
+      "id": 2,
+      "name": "Juan",
+      "lastName": "Sanchez",
+      "email": "juan@test.com"
+    },
+    {
+      "id": 3,
+      "name": "Pedro",
+      "lastName": "Perez",
+      "email": "pedro@test.com"
+    },
+    {
+      "id": 4,
+      "name": "Maria",
+      "lastName": "Gonzalez",
+      "email": "maria@test.com"
+    },
+    {
+      "id": 5,
+      "name": "Jose",
+      "lastName": "Lopez",
+      "email": "jose@test.com"
+    },
+    {
+      "nameModificar": "Canelita",
+      "lastNameModificar": "Arenas",
+      "emailModificar": "canela@test.com",
+      "id": 6
+    },
+    {
+      "nameModificar": "Crucita",
+      "lastNameModificar": "Valencia",
+      "emailModificar": "cruz@test.com",
+      "id": 7
+    }
+  ],
+  "marvel": [
+    {
+      "id": 1,
+      "name": "Iron",
+      "category": "Marvel",
+      "description": "Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon.",
+      "image": "/images/iron.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Spiderman",
+      "category": "Marvel",
+      "description": "Peter Parker who, after being bitten by a genetically-altered spider, gains superhuman strength and the spider-like ability to cling to any surface",
+      "image": "/images/spiderman.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Thor",
+      "category": "Marvel",
+      "description": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+      "image": "/images/thor.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hulk",
+      "category": "Marvel",
+      "description": "Scientist Bruce Banner desperately seeks a cure for the gamma radiation that contaminated his cells and turned him into The Hulk",
+      "image": "/images/hulk.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Captain America",
+      "category": "Marvel",
+      "description": "During World War II, Steve Rogers, a frail man, is transformed into the super-soldier Captain America and must stop the Red Skull (Weaving) from using the Tesseract as an energy source for world domination",
+      "image": "/images/captain-america.jpg"
+    }
+  ],
+  "dc": [
+    {
+      "id": 1,
+      "name": "Batman",
+      "category": "DC",
+      "description": "Batman ventures into Gotham City's underworld when a sadistic killer leaves behind a trail of cryptic clues",
+      "image": "/images/batman.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "category": "DC",
+      "description": "Clark Kent learns that he is a superpowered alien from the planet Krypton. He assumes the role of mankind's protector as Superman, making the choice to face General Zod and prevent him from destroying humanity",
+      "image": "/images/superman.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Woman",
+      "category": "DC",
+      "description": "the Amazon princess Diana sets out to stop World War I, believing the conflict was started by the longtime enemy of the Amazons, Ares, after American pilot and spy Steve Trevor crash-lands on their island Themyscira and informs her about it",
+      "image": "/images/wonder.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Flash",
+      "category": "DC",
+      "description": "Barry travels back in time to prevent his mother's murder, which brings unintended consequences",
+      "image": "/images/flash.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Green Lantern",
+      "category": "DC",
+      "description": "Hal is given a ring that grants him superpowers, and must confront Parallax, who threatens to upset the balance of power in the universe",
+      "image": "/images/green-lantern.jpg"
+    }
+  ]
 }
